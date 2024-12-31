@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>NAMASTE JOURNEY</title>
+    </head>
+  <body>
+    <header id="container">
+      <div id="page-logo"><a href="index.html">NAMASTE JOURNEY</a></div>
+      <nav>
+        <ul>
+          <li><a href="https://google.com">Destinations</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h1 class="content1">NAMASTE's Travel Page</h1>
+          <p class="content2">Let's Explore the World Together</p>
+          <a class="btn1" href="">Discover Places!</a>
+        </div>
+      </section>
+      <section class="highlight">
+        <h2 class="hlh2">HIGHLIGHTS</h2>
+        <ul class="destinations">
+          <div class="destination">
+            <img src="https://i.postimg.cc/gk1rDVbX/munich.jpg" alt="munich" />
+            <p>Munich <strong>Germany</strong></p>
+          </div>
+          <div class="destination">
+            <img src="https://i.postimg.cc/xjxXkrsP/miami.jpg" alt="miami" />
+            <p>Miami <strong>USA</strong></p>
+          </div>
+          <div class="destination">
+            <img src="https://i.postimg.cc/43k7Jz8k/barcelona.jpg" alt="barcelona" />
+            <p>Barcelona <strong>Spain</strong></p>
+          </div>
+        </ul>
+      </section>
+
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Please fill out the form below and we’ll get back to you as soon as possible.</p>
+
+    <form id="contact-form" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="form-response" class="response"></div>
+
+</section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img src="https://i.postimg.cc/4dwmbjXs/insta.png" alt="instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com"></a
+          ><img src="https://i.postimg.cc/cCH6DTJY/facebook.png" alt="facebook logo" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
